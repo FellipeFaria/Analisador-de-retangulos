@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Retângulos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="short icon" href="imagens/icon.svg">
+</head>
+<body>
+    <div class="container">
+        <div class="container-texto">
+            <h1 class="container-texto-titulo">Bem Vindo ao Analisador de Retângulos</h1>
+        </div>
+
+        <div class="container-input">
+            <label>Insira a Altura do Retângulo</label>
+            <br>
+            <input type="number" min="0" value="5" step="0.1" id="altura">
+            <br><br>
+            <label>Insira a Largura do Retângulo</label>
+            <br>
+            <input type="number" min="0" value="5" step="0.1" id="largura">
+            <br><br>
+        </div>
+
+        <div class="container-botao">
+            <button class="container-botao-enviar">Enviar</button>
+        </div>
+    </div>
+
+    <div class="resultado">
+        <div class="resultado-texto">
+            <h1 class="resultado-texto-titulo">Resultados:</h1>
+        </div>
+
+        <div class="resultado-valores">
+            <label class="resultado-valores-area">A área do retangulo é de x metros</label>
+            <label class="resultado-valores-perimetro">O perímetro do retangulo é de x metros</label>
+        </div>
+
+        <div class="resultado-imagem">
+            <img class="resultado-imagem-img" src="imagens/imagem_de_gato.png" alt="imagem de gato matematico">
+        </div>
+
+        <div class="resultado-botao">
+            <button class="resultado-botao-fechar">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
